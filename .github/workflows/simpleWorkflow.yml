@@ -13,7 +13,7 @@ jobs:
    steps:
      - name: step in self-hosted runner 
        id: selfHOsted
-       shell: cmd
+       shell: sh
        run: 
         echo this is a mutiline comment
         echo and this job has been executed from my self-hosted runner 
